@@ -1,0 +1,18 @@
+{
+  "rules": [
+    {
+      "name": "low_income_rule",
+      "field": "income",
+      "operator": "<",
+      "value": 50000,
+      "action": "manual_review"
+    },
+    {
+      "name": "low_credit_rule",
+      "field": "credit_score",
+      "operator": "<",
+      "value": 600,
+      "action": "reject"
+    }
+  ]
+}
